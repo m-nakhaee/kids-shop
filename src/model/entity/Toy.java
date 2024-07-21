@@ -1,4 +1,5 @@
 package model.entity;
 
-public class Toy {
+public record Toy(String name, int price) {
+
 }
